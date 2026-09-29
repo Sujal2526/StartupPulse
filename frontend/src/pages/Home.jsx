@@ -118,7 +118,7 @@ export default function Home() {
                 textWrap: 'balance',
               }}
             >
-              AI-Powered Startup Success & Risk Analysis
+              StartupPulse: Success & Risk Analysis Platform
             </h1>
 
             <p
