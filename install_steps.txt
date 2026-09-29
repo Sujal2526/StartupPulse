@@ -10,3 +10,22 @@ python -m pip install -r requirements.txt
 python -c "import pandas, numpy, matplotlib, seaborn, sklearn, xgboost, joblib, shap; print('StartupPulse ML environment ready')"
 
 .\venv\Scripts\python.exe -m pip ...
+
+brew services stop mongodb-community // to stop mongodb 
+
+brew services start mongodb-community  // to start mongodb
+
+To run frontend file 
+
+(base) sujal2526@Mac ML project % cd StartupP
+ulse
+(base) sujal2526@Mac StartupPulse % cd fronte
+nd   
+npm run dev
+
+To run backend file 
+ 
+cd ~/Desktop/"ML project"/StartupPulse
+source venv/bin/activate
+cd backend
+python -m uvicorn main:app --reload
